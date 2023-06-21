@@ -25,7 +25,7 @@ export const Component = ({
     
     const handleResizeStart = (e) => {
         e.setOrigin(["%", "%"]);
-        e.dragStart && e.dragStart.set(frame.translate);
+        e.dragStart && e.dragStart.set(setFrame.translate);
     };
 
     const handleResize = (e) => {

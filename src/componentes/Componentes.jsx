@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import Moveable from "react-moveable";
-import { useImageBackground } from "../hooks/useImageBackground";
+import { useImageBackground } from "../tools/tool";
 
 export const Component = ({
     updateMoveable,

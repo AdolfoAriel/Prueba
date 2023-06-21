@@ -1,0 +1,81 @@
+body*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+  max-width: 700px;
+  background-color: antiquewhite;
+}
+
+
+
+.title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component_container {
+  position: relative;
+}
+
+.main {
+  display: grid;
+  gap: 1em;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.main .actions-container {
+  display:flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.btn{
+  padding: 0.6 rem 1 rem;
+  border: 0;
+  border-radius: 9px;
+  font-size: 0.9rem;
+}
+.primary-btn{
+  background-color: blanchedalmond;
+  color: #eee;
+}
+.danger-btn{
+  background-color: rebeccapurple;
+  color: #eee;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+#parent{
+  position: relative;
+  background-color: bisque;
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  font-size: 8px;
+}
+
+.draggable{
+  background-color: blue;
+}
+
+.draggable .image-moveable {
+  height: 100%;
+  width: 100%;
+  font-size: 0.87rem;
+  color:aquamarine
+}
